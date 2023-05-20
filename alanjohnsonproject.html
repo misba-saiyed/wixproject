@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sonu sir project</title>
+    <style>
+        
+    *{
+            margin: 0px;
+            padding: 0px;
+            
+        }
+        .main-bg{
+            width: 100%;
+            height: 100vh;
+            background: url(https://static.wixstatic.com/media/84770f_0cf5b6c1550a4b8c92f92f1064cc68de~mv2.jpg/v1/fill/w_1349,h_788,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_0cf5b6c1550a4b8c92f92f1064cc68de~mv2.jpg);
+            background-repeat:no-repeat;
+            background-size:cover;
+            background-attachment: fixed;
+            backface-visibility: visible;
+        }
+        .main{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 90%;
+            margin: 0 auto;
+            padding-top: 15px;
+            /* background-color: white; */
+        }
+        .main .right a{
+            text-decoration: none;
+            color: black;
+            text-transform: uppercase;
+            padding-left: 10px;
+        }
+        .main .right .ac{
+            color: skyblue;
+        }
+        .content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 20%;
+           
+        }
+        .content a{
+            
+            background-color: black;
+            width:fit-content;
+            padding: 15px 15px ;
+            color: white;
+            text-decoration: none;
+            text-transform:unset;
+        }
+        .content a:hover{
+            background-color: transparent;
+            border: 1px solid black;
+            transition: all .3s ease;
+            color: black;
+        }
+        .box{ 
+            margin: left 40px;
+            display:flex;
+            justify-content: space-between;
+            justify-self: center;
+            background-color: transparent;
+            
+        }
+        .p{
+            margin-left: 50px;
+            padding: 20px;
+        }
+       
+        button{
+            margin: 30px;
+            padding: 10px 20px;
+            text-decoration: none;
+            background-color: rgb(112, 189, 214);
+            color:white;
+            border: transparent;
+            
+            
+        }
+        button:hover{
+            background-color:aqua;
+            transition: all .3s ease;
+            color:black;
+
+        }
+        btn{
+            margin: 30px;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+       
+       
+        h2{
+           line-height: 100px;
+            text-align:left;
+            padding-left:20px;
+            }
+
+            .zz{
+                font-size:xx-large;
+            }
+        .left-one{
+                   text-align:justify;
+                   margin-left: 40px;
+                   padding-left:20px;
+        }
+        .box2{
+            display: flex;
+            justify-content: space-between;
+          flex-direction: row;
+          align-content: center;
+        }
+        .container{
+            
+            display:flex;
+            justify-content: space-between;
+            justify-self:center ;
+        }
+        
+        
+       .line{
+        width: 40px;
+        height: 2px;
+        background-color: black;
+        position:absolute;
+        top: 1360px;
+        padding: left 10px;
+       }
+        h4{
+             font-size:xx-large;
+             padding-left:40px;
+        }
+       .wrapper{
+        margin:50px 50px ;
+        width:900px;
+        margin:8% auto;
+        height:300px;
+        background-color:rgb(234, 232, 241);
+        text-align: center;
+        align-self: center;
+        display:flex;
+        flex-direction:row;
+        gap:30px 30px ;
+        text-decoration: none;
+        justify-content: space-between;
+    
+        
+       }
+     .cc{
+        justify-content: center;
+     }
+       .cc a{
+            margin: 30px;
+            padding: 10px 20px;
+            background-color:black;
+            color:white;
+            text-decoration: none;
+            justify-content: center;
+            border:1px solid black;
+           }
+       .cc a:hover{
+            background-color: transparent;
+            transition: all .3s ease;
+            color:black;
+       }  
+           
+ 
+      .part1 a{
+            text-decoration: none;
+            margin: 30px;
+            padding: 10px 20px;
+            background-color:black;
+            color:white;
+            text-decoration: none;
+            justify-content: center;
+            border:1px solid black;
+      }
+      .part1 a:hover{
+            background-color: transparent;
+            transition: all .3s ease;
+            color:black;
+       }  
+
+
+    .box2{
+        text-decoration: none;
+    }
+    .fe{
+        background-color: rgb(110, 201, 196);
+        padding-left: 90px;
+        text-decoration: none;
+    }
+    #line2{
+        width: 30px;
+        height: 2px;
+        background-color: black;
+        position: absolute;
+        bottom: 500px;
+        left:0;
+    }
+   
+
+    
+    #verticle-line{
+        width:1px;
+        height: 300px;
+        background-color: silver;
+        align-tracks: center;
+        
+    }
+    #horizontal-line{
+       height: 2px;
+       width: 50px;
+       background-color: black;
+    
+    }
+    .para{
+        font-size: large;
+        font-weight: 600;
+        color : black;
+        padding: 60px;
+        gap: 20px;
+        
+       
+    }
+    .para2{
+        color: black;
+        font-size: 15px;
+        box-sizing: border-box;
+        padding: 60px;
+        font-weight: lighter;
+    }
+    .para3{
+        font-size: 23px;
+        font-weight: bold;
+        color: black;
+        padding:10px;
+        
+    }
+    .para4{
+        text-decoration: none;
+        padding: auto;
+        color:white;
+        
+    }
+    .bb{
+        font-size: xx-large;
+    }
+   h1{
+    font-size: 150px;
+    font-weight:bolder;
+    text-transform: capitalize;
+    text-decoration:dashed;
+   }
+   .uu{
+    font-size:larger;
+    font-weight:lighter;
+   }
+   
+   .para5{
+         padding-left:90px ;
+   }
+   h3{
+     padding-left: 40px;
+     
+   }
+   .pp{
+     font-size:x-large;
+     font-weight: bold;
+     text-transform: capitalize;
+   }
+   .tt{
+    font-size: medium;
+    font-weight:lighter;
+    padding-left:55px;
+   
+   }
+   .ww{
+     padding-left:90px ;
+   }
+   .zz{
+    padding-left:90px;
+   }
+   .hh{
+         
+       float:right;
+       padding-right: 150px;
+       height: 40%;
+       font-size: large;
+       color:black;
+   }
+  
+ 
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<div class="main-bg">
+    <div class="main">
+        <div class="left">
+            <h3 class="pp">ALLAN JOHNSON</h3>
+          <h4 class="tt">Personal Life Coach </h4>
+        </div>
+        <div class="right">
+            <a href="" class="ac">home</a>
+            <a href="">about</a>
+            <a href="">contact</a>
+            <a href="">services</a>
+        </div>
+    </div>
+    <div class="content">
+        <p class="uu">AMBITION IS THE FIRST STEP TOWARDS</p>
+        <h1><blackquote>SUCCESS</blackquote></h1>
+        <a href=""> Book Now </a>
+    </div>
+</div>
+
+
+    
+   <div class="box">
+
+    <div class="part1">
+        <i class="fa-light fa-horizontal-rule"></i>
+        <h2 class="zz">ABOUT ME</h2>
+        <p class="para5">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. ​
+            <br>This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide.</p>
+            
+      <br><br> <btn> <a href="">Read more</a></btn>    
+    </div>
+    <div class="part2">
+
+    <img src="./ea71bb_e7959a5be116482b9727a9be900d2d35~mv2_d_5454_3840_s_4_2.webp" alt="">
+    </div>
+   </div>
+
+   <div>
+ 
+   <h4 class="ww">HOW I CAN<br>
+    HELP YOU <span class="line"></span></h4>
+    </div>
+
+    
+     <div class="wrapper">
+  <div class="box1">
+     <div class="left-one">
+       
+       <p class="para">SELF-IMPROVEMENT 45min | $50</p><br>
+         
+        
+     </div>
+     </div>
+     <div id="verticle-line"></div>
+     <div class="box2">
+     <div class="right-two">
+       
+        <p class="para2">Describe your service here. What makes it great? Use short <br>catchy text to tell people what you offer, and the benefits they will receive. <br>A great description gets readers...</p>
+        <button><a href="" class="para4">Book Now</a></button>
+           </div>
+        </div>
+        </div><br><br>
+  <div class="cc">
+          <a href="" class="cc">More services</a>
+   </div><br><br><br>
+   <div class="fe">
+    <div id="horizontal-line"></div>
+    
+    <p class="para3">CONTACT</p><br>
+<p>500 Terry Francois Street</p><br>
+
+<p>San Francisco, CA 94158</p><br>
+
+​​
+
+<p>Tel: 123-456-7890</p><br>
+
+<p>Fax: 123-456-7890</p><br>
+
+​
+
+<p>info@mysite.com</p><br>
+
+<a href="//www.facebook.com/">
+<i class="fa-brands fa-facebook-f"></i>
+</a>&nbsp;
+
+<a href="https://twitter.com/">
+<i class="fa-brands fa-twitter"></i>
+</a>&nbsp;
+
+<a href="https://www.instagram.com/">
+<i class="fa-brands fa-instagram"></i>
+</a>&nbsp;
+
+<a href="https://www.youtube.com/">
+<i class="fa-brands fa-youtube"></i>
+</a>&nbsp;
+
+<a href="https://en.wikipedia.org/wiki/Google%2B">
+<i class="fa-brands fa-google-plus-g"></i>
+</a><br><br><br><br>
+
+© 2023 by Personal Life Coach. Proudly created with Wix.com   
+<a href="file:///C:/Users/Acer/Desktop/sonu%20sir%20class/alanjohnsonproject.html" class="hh"><i class="fa-sharp fa-solid fa-angle-up fa-xl"></i></a>
+
+   </div><br>
+
+   
+   
+   
+
+
+</body>
+</html>
